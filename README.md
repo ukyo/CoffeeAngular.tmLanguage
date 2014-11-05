@@ -4,7 +4,7 @@ CoffeeAngular.tmLanguage is forked from Default CoffeeScript.tmLanguage.
 
 ## Features
 
-You can highlight inline templates if you write code as below.
+You can highlight inline templates if you write codes as below.
 
 ```coffee
 template = """
@@ -20,3 +20,5 @@ app.directive 'fooDirective', ->
   	<div></div>
   """
 ```
+
+![image](https://raw.githubusercontent.com/ukyo/CoffeeAngular.tmLanguage/master/coffeeangular.png)
