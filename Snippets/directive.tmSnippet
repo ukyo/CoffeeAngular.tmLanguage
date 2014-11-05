@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.directive '$1', ($2) ->
+	restrict: '${3:ECMA}'
+  require: ['${4:^ngModel'}]
+  scope: ${5:false}
+  priority: ${6:0}
+  replace: ${7:false}
+  transclude: ${8:false}
+  template: '''
+    $9
+  '''
+  templateUrl: '$10.html'
+  compile: (tElement, tAttrs, transclude) ->
+    ($scope, $element, $attrs, ctrls) ->
+      $11
+  link: ($scope, $element, $attrs, ctrls) ->
+    $12
+  controller: ($scope, $element, $attrs, $transclude) ->
+    $13</string>
+	<key>name</key>
+	<string>directive</string>
+	<key>scope</key>
+	<string>source.coffee</string>
+	<key>tabTrigger</key>
+	<string>ngd</string>
+</dict>
+</plist>
