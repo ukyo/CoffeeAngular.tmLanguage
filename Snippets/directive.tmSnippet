@@ -22,7 +22,7 @@
   controller: (\$scope, \$element, \$attrs, \$transclude) ->
     $13</string>
 	<key>name</key>
-	<string>directive</string>
+	<string>angular directive</string>
 	<key>scope</key>
 	<string>source.coffee</string>
 	<key>tabTrigger</key>
