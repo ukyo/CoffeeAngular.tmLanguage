@@ -15,11 +15,11 @@
   '''
   templateUrl: '$10.html'
   compile: (tElement, tAttrs, transclude) ->
-    ($scope, $element, $attrs, ctrls) ->
+    (\$scope, \$element, \$attrs, ctrls) ->
       $11
-  link: ($scope, $element, $attrs, ctrls) ->
+  link: (\$scope, \$element, \$attrs, ctrls) ->
     $12
-  controller: ($scope, $element, $attrs, $transclude) ->
+  controller: (\$scope, \$element, \$attrs, \$transclude) ->
     $13</string>
 	<key>name</key>
 	<string>directive</string>
